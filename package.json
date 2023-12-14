@@ -1,12 +1,13 @@
 {
-  "name": "turborepo-nuxt-boilerplate",
-  "version": "0.0.5",
+  "name": "theaterpedia-core-turbo",
+  "version": "0.0.7",
   "private": true,
   "workspaces": [
     "apps/*",
     "packages/*"
   ],
   "scripts": {
+    "clean": "find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +",
     "build": "turbo run build",
     "generate": "turbo run generate",
     "dev": "turbo run dev --parallel",
