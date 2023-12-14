@@ -1,0 +1,18 @@
+{
+  "@vite/client": {
+    "prefetch": true,
+    "isEntry": true,
+    "file": "@vite/client",
+    "css": [],
+    "module": true,
+    "resourceType": "script"
+  },
+  "/home/persona/crearis/theaterpedia-core-turbo/node_modules/.pnpm/nuxt@3.8.2_uc2domc3yk5t6ti6ohfo2wvqaa/node_modules/nuxt/dist/app/entry.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "isEntry": true,
+    "file": "/home/persona/crearis/theaterpedia-core-turbo/node_modules/.pnpm/nuxt@3.8.2_uc2domc3yk5t6ti6ohfo2wvqaa/node_modules/nuxt/dist/app/entry.js"
+  }
+}

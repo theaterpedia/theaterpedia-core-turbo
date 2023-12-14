@@ -1,10 +1,12 @@
 import type { Ref } from 'vue';
 import type { Maybe } from '@vue-storefront/unified-data-model';
-import type { HeadingProps } from '@crearis/theme-main/components/Heading/types';
-import type { ProductSliderProps } from '@crearis/theme-main/components/ProductSlider/types';
-import type { CategoryCardProps } from '@crearis/theme-main/components/ui/CategoryCard/types';
-import type { DisplayProps } from '@crearis/theme-main/components/ui/Display/types';
-import type { HeroProps } from '@crearis/theme-main/components/ui/Hero/types';
+
+
+// import type { HeadingProps } from '../../../Heading/types';
+// import type { ProductSliderProps } from '..//ProductSlider/types';
+// import type { CategoryCardProps } from '../../ui/CategoryCard/types';
+// import type { DisplayProps } from '../../ui/Display/types';
+// import type { HeroProps } from '../../ui/Hero/types';
 
 type EntryFields<TFields> = Array<{
   fields: TFields;
@@ -14,12 +16,12 @@ type WithComponentField<TProps, TComponent> = TProps & {
   component: TComponent;
 };
 
-export type DynamicContentFields =
-  | WithComponentField<HeroProps, 'Hero'>
+export type DynamicContentFields = "";
+  /* WithComponentField<HeroProps, 'Hero'>
   | WithComponentField<CategoryCardProps, 'Card'>
   | WithComponentField<HeadingProps, 'Heading'>
   | WithComponentField<DisplayProps, 'Display'>
-  | WithComponentField<ProductSliderProps, 'ProductSlider'>;
+  | WithComponentField<ProductSliderProps, 'ProductSlider'>; */
 
 export interface ContentDynamicPage {
   component: 'Page';

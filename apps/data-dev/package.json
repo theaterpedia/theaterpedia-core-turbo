@@ -6,7 +6,7 @@
   "main": "./nuxt.config.ts",
   "scripts": {
     "build": "nuxi build",
-    "dev": "nuxi dev -p 3002",
+    "dev:deactivated": "nuxi dev -p 3002",
     "generate": "nuxi generate",
     "lint": "nuxt typecheck",
     "lint:deactivated": "nuxt typecheck && eslint --ext .vue,.js,.ts .",

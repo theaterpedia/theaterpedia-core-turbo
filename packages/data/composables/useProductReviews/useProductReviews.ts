@@ -3,7 +3,7 @@ import type {
   UseProductReviews,
   UseProductReviewsState,
   FetchProductReviews,
-} from '@crearis/data-main/composables/useProductReviews/types';
+} from '../../composables/useProductReviews/types';
 import { useSdk } from '../../sdk';
 
 /**

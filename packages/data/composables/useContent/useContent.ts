@@ -1,4 +1,4 @@
-import type { UseContentReturn, UseContentState, GetContent } from '@crearis/data-main/composables/useContent/types';
+import type { UseContentReturn, UseContentState, GetContent } from '../../composables/useContent/types';
 import { useSdk } from '../../sdk';
 
 /**

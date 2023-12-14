@@ -3,7 +3,7 @@ import type {
   UseCartShippingMethodsState,
   UseCartShippingMethodsReturn,
   GetShippingMethods,
-} from '@crearis/data-main/composables/useCartShippingMethods/types';
+} from '../../composables/useCartShippingMethods/types';
 import { useSdk } from '../../sdk';
 
 /**

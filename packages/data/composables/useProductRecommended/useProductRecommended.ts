@@ -3,7 +3,7 @@ import type {
   UseProductRecommendedReturn,
   UseProductRecommendedState,
   FetchProductRecommended,
-} from '@crearis/data-main/composables/useProductRecommended/types';
+} from '../../composables/useProductRecommended/types';
 import { useSdk } from '../../sdk';
 
 /**

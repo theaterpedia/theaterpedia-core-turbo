@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "vitepress dev pages",
-    "build": "vitepress build pages",
+    "dev:deactivated": "vitepress dev pages",
+    "build:deactivated": "vitepress build pages",
     "serve": "vitepress serve pages"
   },
   "devDependencies": {
