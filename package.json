@@ -15,13 +15,13 @@
     "test": "turbo run test"
   },
   "devDependencies": {
-    "@myturborepo/eslint-config-custom": "workspace:*",
-    "@release-it/conventional-changelog": "^5.1.1",
-    "release-it": "^15.10.3",
+    "@crearis/eslint-config-custom": "workspace:*",
+    "@release-it/conventional-changelog": "^8.0.1",
+    "release-it": "^17.0.1",
     "turbo": "latest"
   },
   "engines": {
-    "node": ">=v18.16.0"
+    "node": ">=v20.8.1"
   },
   "packageManager": "pnpm@7.32.5"
 }
