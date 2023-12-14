@@ -17,6 +17,9 @@
         ".output/**"
       ]
     },
+    "release" : {
+      "dependsOn": ["^lint"]
+    },    
     "lint": {
       "outputs": []
     },

@@ -38,6 +38,7 @@ yarn-error.log*
 
 # nuxt
 .output
+.nuxt
 
 # histoire
 .histoire

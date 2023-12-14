@@ -8,7 +8,6 @@
     "build": "nuxi build",
     "dev:deactivated": "nuxi dev -p 3002",
     "generate": "nuxi generate",
-    "lint": "nuxt typecheck",
     "lint:deactivated": "nuxt typecheck && eslint --ext .vue,.js,.ts .",
     "lint:fix": "eslint --ext .vue,.js,.ts . --fix",
     "preview": "nuxi preview",
