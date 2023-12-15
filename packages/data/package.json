@@ -6,7 +6,6 @@
   "main": "./nuxt.config.ts",
   "files": [
     "composables/",
-    "sdk/",
     "mocks/",
     "utils/",
     "app.vue",
