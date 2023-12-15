@@ -13,6 +13,7 @@
 /// <reference path="types/schema.d.ts" />
 /// <reference path="types/app.config.d.ts" />
 /// <reference types="vite/client" />
+/// <reference path="tailwind.config.d.ts" />
 /// <reference path="../../../node_modules/.pnpm/@nuxtjs+i18n@8.0.0-rc.3_vue-router@4.2.5+vue@3.3.9/node_modules/@nuxtjs/i18n/dist/runtime/types" />
 /// <reference types="vite-plugin-pwa/vue" />
 /// <reference types="vite-plugin-pwa/info" />

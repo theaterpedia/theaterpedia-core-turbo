@@ -62,6 +62,9 @@
       "vue-demi": [
         "../../../node_modules/.pnpm/nuxt@3.8.2_2siveq6k3m5fx6oz2vknqsz3xy/node_modules/nuxt/dist/app/compat/vue-demi"
       ],
+      "#tailwind-config": [
+        "./tailwind.config"
+      ],
       "vue-i18n": [
         "../../../node_modules/vue-i18n/dist/vue-i18n"
       ],
