@@ -8,6 +8,7 @@
     "components/",
     "composables/",
     "mocks/",
+    "assets/",
     "lang/",
     "pages/",
     "utils/",
