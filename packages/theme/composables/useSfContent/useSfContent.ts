@@ -1,14 +1,14 @@
-import type { UseContentReturn, UseContentState, GetContent } from '../../composables/useContent/types';
-import { useSdk } from '../../sdk';
+import type { UseContentReturn, UseContentState, GetContent } from './types';
+import { useSdk } from '@crearis/data-main/sdk';
 
 /**
  * @description Composable for managing content from CMS.
  * @param url Parameter of the content to fetch.
- * @returns {@link UseContent}
+ * @returns {@link UseSfContent}
  * @example
- * const { data, loading, getContent } = useContent<ContentFieldsType>('url');
+ * const { data, loading, getContent } = useSfContent<ContentFieldsType>('url');
  */
-export const useContent: UseContentReturn = (url) => {
+export const useSfContent: UseContentReturn = (url) => {
   const state = useState<UseContentState>(`content-${url}`, () => ({
     data: null,
     loading: false,

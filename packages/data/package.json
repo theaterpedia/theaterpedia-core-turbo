@@ -1,11 +1,14 @@
 {
   "name": "@crearis/data-main",
   "type": "module",
-  "version": "0.0.6",
+  "version": "0.0.13",
   "license": "MIT",
   "main": "./nuxt.config.ts",
   "files": [
     "composables/",
+    "sdk/",
+    "mocks/",
+    "utils/",
     "app.vue",
     "app.config.ts",
     "nuxt.config.ts"
@@ -22,9 +25,7 @@
   },
   "dependencies": {
     "@vue-storefront/sdk": "^1.0.1",
-    "@vue-storefront/storefront-boilerplate-sdk": "~0.2.0",
-    "@vueuse/core": "^10.3.0",
-    "lodash-es": "^4.17.21"
+    "@vue-storefront/storefront-boilerplate-sdk": "~0.2.0"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
@@ -53,7 +54,7 @@
     "vue": "^3.2.47",
     "vue-router": "^4.0.0",
     "prettier": "^3.0.0",
-    "@vitejs/plugin-vue":"^4.5.2",
-    "@vitejs/plugin-vue-jsx":"^3.1.0"    
+    "@vitejs/plugin-vue": "^4.5.2",
+    "@vitejs/plugin-vue-jsx": "^3.1.0"
   }
 }

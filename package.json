@@ -3,12 +3,14 @@
   "version": "0.0.7",
   "private": true,
   "workspaces": [
+
     "apps/*",
     "packages/*"
   ],
   "scripts": {
     "clean": "find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +",
     "build": "turbo run build",
+    "release": "turbo run release --concurrency=1",
     "generate": "turbo run generate",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
@@ -19,6 +21,7 @@
     "@crearis/eslint-config-custom": "workspace:*",
     "@release-it/conventional-changelog": "^8.0.1",
     "release-it": "^17.0.1",
+    "@release-it/bumper": "^6.0.1",
     "turbo": "latest"
   },
   "engines": {

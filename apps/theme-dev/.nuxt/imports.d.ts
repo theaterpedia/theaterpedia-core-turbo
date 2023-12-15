@@ -23,8 +23,9 @@ export { withCtx, withDirectives, withKeys, withMemo, withModifiers, withScopeId
 export { hydrateNever, hydrateOnInteraction, hydrateWhenIdle, hydrateWhenTriggered, hydrateWhenVisible, useHydrateOnInteraction, useHydrateWhenIdle, useHydrateWhenTriggered, useHydrateWhenVisible, useLazyHydration } from 'vue3-lazy-hydration';
 export { injectHead, useHead, useSeoMeta, useHeadSafe, useServerHead, useServerSeoMeta, useServerHeadSafe } from '@unhead/vue';
 export { paths } from '../../../packages/theme/utils/paths';
+export { useContent } from '../../../packages/theme/composables/useSfContent/useSfContent';
+export { DynamicContentFields, ContentDynamicPage, UseContentState, GetContent, UseContent, UseContentReturn } from '../../../packages/theme/composables/useSfContent/types';
 export { useCart } from '../../../packages/data/composables/useCart/useCart';
-export { useContent } from '../../../packages/data/composables/useContent/useContent';
 export { useHandleError } from '../../../packages/data/composables/useHandleError/useHandleError';
 export { useProduct } from '../../../packages/data/composables/useProduct/useProduct';
 export { UseProductState, FetchProduct, UseProduct, UseProductReturn } from '../../../packages/data/composables/useProduct/types';
@@ -33,7 +34,6 @@ export { useBreakpoints } from '../../../packages/data/composables/useBreakpoint
 export { UseCartState, FetchCart, UseCart, UseCartReturn } from '../../../packages/data/composables/useCart/types';
 export { useCartShippingMethods } from '../../../packages/data/composables/useCartShippingMethods/useCartShippingMethods';
 export { UseCartShippingMethodsState, GetShippingMethods, UseCartShippingMethods, UseCartShippingMethodsReturn } from '../../../packages/data/composables/useCartShippingMethods/types';
-export { DynamicContentFields, ContentDynamicPage, UseContentState, GetContent, UseContent, UseContentReturn } from '../../../packages/data/composables/useContent/types';
 export { useCustomer } from '../../../packages/data/composables/useCustomer/useCustomer';
 export { UseCustomerState, FetchCustomer, UseCustomer, UseCustomerReturn } from '../../../packages/data/composables/useCustomer/types';
 export { useCustomerAddress } from '../../../packages/data/composables/useCustomerAddress/useCustomerAddress';
@@ -59,5 +59,5 @@ export { useProducts } from '../../../packages/data/composables/useProducts/useP
 export { useI18n } from '../../../node_modules/vue-i18n/dist/vue-i18n';
 export { useRouteBaseName, useLocalePath, useLocaleRoute, useSwitchLocalePath, useLocaleHead, useBrowserLocale, useCookieLocale, defineI18nRoute, defineI18nLocale, defineI18nConfig } from '../../../node_modules/.pnpm/@nuxtjs+i18n@8.0.0-rc.3_vue-router@4.2.5+vue@3.3.9/node_modules/@nuxtjs/i18n/dist/runtime/composables';
 export { useImage } from '../../../node_modules/.pnpm/@nuxt+image@1.1.0/node_modules/@nuxt/image/dist/runtime/composables';
-export { useNuxtDevTools } from '../../../node_modules/.pnpm/@nuxt+devtools@1.0.6_nuxt@3.8.2+vite@5.0.8/node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';
-export { definePageMeta } from '../../../node_modules/.pnpm/nuxt@3.8.2_uc2domc3yk5t6ti6ohfo2wvqaa/node_modules/nuxt/dist/pages/runtime/composables';
+export { useNuxtDevTools } from '../../../node_modules/.pnpm/@nuxt+devtools@1.0.6_nuxt@3.8.2+vite@5.0.9/node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';
+export { definePageMeta } from '../../../node_modules/.pnpm/nuxt@3.8.2_2siveq6k3m5fx6oz2vknqsz3xy/node_modules/nuxt/dist/pages/runtime/composables';

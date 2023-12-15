@@ -18,7 +18,8 @@
       ]
     },
     "release" : {
-      "dependsOn": ["^lint"]
+      "dependsOn": ["^release"],
+      "outputMode": "new-only"
     },    
     "lint": {
       "outputs": []
