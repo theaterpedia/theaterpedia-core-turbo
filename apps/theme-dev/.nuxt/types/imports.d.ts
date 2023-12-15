@@ -111,7 +111,6 @@ declare global {
   const useBrowserLocale: typeof import('../../../../node_modules/.pnpm/@nuxtjs+i18n@8.0.0-rc.3_vue-router@4.2.5+vue@3.3.9/node_modules/@nuxtjs/i18n/dist/runtime/composables')['useBrowserLocale']
   const useCart: typeof import('../../../../packages/data/composables/useCart/useCart')['useCart']
   const useCartShippingMethods: typeof import('../../../../packages/data/composables/useCartShippingMethods/useCartShippingMethods')['useCartShippingMethods']
-  const useContent: typeof import('../../../../packages/theme/composables/useSfContent/useSfContent')['useContent']
   const useCookie: typeof import('../../../../node_modules/.pnpm/nuxt@3.8.2_2siveq6k3m5fx6oz2vknqsz3xy/node_modules/nuxt/dist/app/composables/cookie')['useCookie']
   const useCookieLocale: typeof import('../../../../node_modules/.pnpm/@nuxtjs+i18n@8.0.0-rc.3_vue-router@4.2.5+vue@3.3.9/node_modules/@nuxtjs/i18n/dist/runtime/composables')['useCookieLocale']
   const useCssModule: typeof import('../../../../node_modules/.pnpm/vue@3.3.9_typescript@5.3.3/node_modules/vue')['useCssModule']
@@ -162,6 +161,7 @@ declare global {
   const useServerHead: typeof import('../../../../node_modules/.pnpm/@unhead+vue@1.8.9_vue@3.3.9/node_modules/@unhead/vue')['useServerHead']
   const useServerHeadSafe: typeof import('../../../../node_modules/.pnpm/@unhead+vue@1.8.9_vue@3.3.9/node_modules/@unhead/vue')['useServerHeadSafe']
   const useServerSeoMeta: typeof import('../../../../node_modules/.pnpm/@unhead+vue@1.8.9_vue@3.3.9/node_modules/@unhead/vue')['useServerSeoMeta']
+  const useSfContent: typeof import('../../../../packages/theme/composables/useSfContent/useSfContent')['useSfContent']
   const useSlots: typeof import('../../../../node_modules/.pnpm/vue@3.3.9_typescript@5.3.3/node_modules/vue')['useSlots']
   const useState: typeof import('../../../../node_modules/.pnpm/nuxt@3.8.2_2siveq6k3m5fx6oz2vknqsz3xy/node_modules/nuxt/dist/app/composables/state')['useState']
   const useSwitchLocalePath: typeof import('../../../../node_modules/.pnpm/@nuxtjs+i18n@8.0.0-rc.3_vue-router@4.2.5+vue@3.3.9/node_modules/@nuxtjs/i18n/dist/runtime/composables')['useSwitchLocalePath']
@@ -183,7 +183,7 @@ declare global {
   export type { Component, ComponentPublicInstance, ComputedRef, ExtractPropTypes, ExtractPublicPropTypes, InjectionKey, PropType, Ref, MaybeRef, MaybeRefOrGetter, VNode } from '../../../../node_modules/.pnpm/vue@3.3.9_typescript@5.3.3/node_modules/vue'
   import('../../../../node_modules/.pnpm/vue@3.3.9_typescript@5.3.3/node_modules/vue')
   // @ts-ignore
-  export type { DynamicContentFields, ContentDynamicPage, UseContentState, GetContent, UseContent, UseContentReturn } from '/home/persona/crearis/theaterpedia-core-turbo/packages/theme/composables/useSfContent/types.ts'
+  export type { DynamicContentFields, ContentDynamicPage, UseContentState, GetContent, UseSfContent, UseContentReturn } from '/home/persona/crearis/theaterpedia-core-turbo/packages/theme/composables/useSfContent/types.ts'
   import('/home/persona/crearis/theaterpedia-core-turbo/packages/theme/composables/useSfContent/types.ts')
   // @ts-ignore
   export type { UseProductState, FetchProduct, UseProduct, UseProductReturn } from '/home/persona/crearis/theaterpedia-core-turbo/packages/data/composables/useProduct/types.ts'
@@ -336,7 +336,6 @@ declare module 'vue' {
     readonly useBrowserLocale: UnwrapRef<typeof import('../../../../node_modules/.pnpm/@nuxtjs+i18n@8.0.0-rc.3_vue-router@4.2.5+vue@3.3.9/node_modules/@nuxtjs/i18n/dist/runtime/composables')['useBrowserLocale']>
     readonly useCart: UnwrapRef<typeof import('../../../../packages/data/composables/useCart/useCart')['useCart']>
     readonly useCartShippingMethods: UnwrapRef<typeof import('../../../../packages/data/composables/useCartShippingMethods/useCartShippingMethods')['useCartShippingMethods']>
-    readonly useContent: UnwrapRef<typeof import('../../../../packages/theme/composables/useSfContent/useSfContent')['useContent']>
     readonly useCookie: UnwrapRef<typeof import('../../../../node_modules/.pnpm/nuxt@3.8.2_2siveq6k3m5fx6oz2vknqsz3xy/node_modules/nuxt/dist/app/composables/cookie')['useCookie']>
     readonly useCookieLocale: UnwrapRef<typeof import('../../../../node_modules/.pnpm/@nuxtjs+i18n@8.0.0-rc.3_vue-router@4.2.5+vue@3.3.9/node_modules/@nuxtjs/i18n/dist/runtime/composables')['useCookieLocale']>
     readonly useCssModule: UnwrapRef<typeof import('../../../../node_modules/.pnpm/vue@3.3.9_typescript@5.3.3/node_modules/vue')['useCssModule']>
@@ -387,6 +386,7 @@ declare module 'vue' {
     readonly useServerHead: UnwrapRef<typeof import('../../../../node_modules/.pnpm/@unhead+vue@1.8.9_vue@3.3.9/node_modules/@unhead/vue')['useServerHead']>
     readonly useServerHeadSafe: UnwrapRef<typeof import('../../../../node_modules/.pnpm/@unhead+vue@1.8.9_vue@3.3.9/node_modules/@unhead/vue')['useServerHeadSafe']>
     readonly useServerSeoMeta: UnwrapRef<typeof import('../../../../node_modules/.pnpm/@unhead+vue@1.8.9_vue@3.3.9/node_modules/@unhead/vue')['useServerSeoMeta']>
+    readonly useSfContent: UnwrapRef<typeof import('../../../../packages/theme/composables/useSfContent/useSfContent')['useSfContent']>
     readonly useSlots: UnwrapRef<typeof import('../../../../node_modules/.pnpm/vue@3.3.9_typescript@5.3.3/node_modules/vue')['useSlots']>
     readonly useState: UnwrapRef<typeof import('../../../../node_modules/.pnpm/nuxt@3.8.2_2siveq6k3m5fx6oz2vknqsz3xy/node_modules/nuxt/dist/app/composables/state')['useState']>
     readonly useSwitchLocalePath: UnwrapRef<typeof import('../../../../node_modules/.pnpm/@nuxtjs+i18n@8.0.0-rc.3_vue-router@4.2.5+vue@3.3.9/node_modules/@nuxtjs/i18n/dist/runtime/composables')['useSwitchLocalePath']>
@@ -515,7 +515,6 @@ declare module '@vue/runtime-core' {
     readonly useBrowserLocale: UnwrapRef<typeof import('../../../../node_modules/.pnpm/@nuxtjs+i18n@8.0.0-rc.3_vue-router@4.2.5+vue@3.3.9/node_modules/@nuxtjs/i18n/dist/runtime/composables')['useBrowserLocale']>
     readonly useCart: UnwrapRef<typeof import('../../../../packages/data/composables/useCart/useCart')['useCart']>
     readonly useCartShippingMethods: UnwrapRef<typeof import('../../../../packages/data/composables/useCartShippingMethods/useCartShippingMethods')['useCartShippingMethods']>
-    readonly useContent: UnwrapRef<typeof import('../../../../packages/theme/composables/useSfContent/useSfContent')['useContent']>
     readonly useCookie: UnwrapRef<typeof import('../../../../node_modules/.pnpm/nuxt@3.8.2_2siveq6k3m5fx6oz2vknqsz3xy/node_modules/nuxt/dist/app/composables/cookie')['useCookie']>
     readonly useCookieLocale: UnwrapRef<typeof import('../../../../node_modules/.pnpm/@nuxtjs+i18n@8.0.0-rc.3_vue-router@4.2.5+vue@3.3.9/node_modules/@nuxtjs/i18n/dist/runtime/composables')['useCookieLocale']>
     readonly useCssModule: UnwrapRef<typeof import('../../../../node_modules/.pnpm/vue@3.3.9_typescript@5.3.3/node_modules/vue')['useCssModule']>
@@ -566,6 +565,7 @@ declare module '@vue/runtime-core' {
     readonly useServerHead: UnwrapRef<typeof import('../../../../node_modules/.pnpm/@unhead+vue@1.8.9_vue@3.3.9/node_modules/@unhead/vue')['useServerHead']>
     readonly useServerHeadSafe: UnwrapRef<typeof import('../../../../node_modules/.pnpm/@unhead+vue@1.8.9_vue@3.3.9/node_modules/@unhead/vue')['useServerHeadSafe']>
     readonly useServerSeoMeta: UnwrapRef<typeof import('../../../../node_modules/.pnpm/@unhead+vue@1.8.9_vue@3.3.9/node_modules/@unhead/vue')['useServerSeoMeta']>
+    readonly useSfContent: UnwrapRef<typeof import('../../../../packages/theme/composables/useSfContent/useSfContent')['useSfContent']>
     readonly useSlots: UnwrapRef<typeof import('../../../../node_modules/.pnpm/vue@3.3.9_typescript@5.3.3/node_modules/vue')['useSlots']>
     readonly useState: UnwrapRef<typeof import('../../../../node_modules/.pnpm/nuxt@3.8.2_2siveq6k3m5fx6oz2vknqsz3xy/node_modules/nuxt/dist/app/composables/state')['useState']>
     readonly useSwitchLocalePath: UnwrapRef<typeof import('../../../../node_modules/.pnpm/@nuxtjs+i18n@8.0.0-rc.3_vue-router@4.2.5+vue@3.3.9/node_modules/@nuxtjs/i18n/dist/runtime/composables')['useSwitchLocalePath']>
