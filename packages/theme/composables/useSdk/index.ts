@@ -1,5 +1,5 @@
 import { initSDK, buildModule } from '@vue-storefront/sdk';
-import { type SdkModule, sdkModule } from '@vue-storefront/storefront-boilerplate-sdk';
+import { type SdkModule, sdkModule } from '@crearis/crearis-boilerplate-sdk';
 
 export const useSdk = () => {
   const sdkConfig = {

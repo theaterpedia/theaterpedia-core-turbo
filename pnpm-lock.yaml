@@ -198,6 +198,7 @@ importers:
 
   apps/tp-template:
     specifiers:
+      '@crearis/crearis-boilerplate-sdk': ~0.0.11
       '@crearis/data-main': workspace:*
       '@crearis/theme-main': workspace:*
       '@crearis/typography': latest
@@ -217,7 +218,6 @@ importers:
       '@vitest/coverage-v8': ^0.33.0
       '@vitest/expect': ^1.0.4
       '@vue-storefront/sdk': ^1.0.1
-      '@vue-storefront/storefront-boilerplate-sdk': ~0.2.0
       '@vue-storefront/unified-data-model': ^0.6.0
       '@vue/test-utils': ^2.4.0
       '@vueuse/core': ^10.3.0
@@ -244,8 +244,8 @@ importers:
       vue-router: ^4.0.0
       vue-tsc: ^1.8.6
     dependencies:
+      '@crearis/crearis-boilerplate-sdk': 0.0.11
       '@vue-storefront/sdk': 1.1.2
-      '@vue-storefront/storefront-boilerplate-sdk': 0.2.0
       '@vueuse/core': 10.7.0_vue@3.3.9
       lodash-es: 4.17.21
       nuxt-lazy-hydrate: 1.0.0_vue@3.3.9
@@ -293,6 +293,7 @@ importers:
 
   packages/data:
     specifiers:
+      '@crearis/crearis-boilerplate-sdk': ~0.0.11
       '@nuxt/devtools': latest
       '@nuxtjs/i18n': 8.0.0-rc.3
       '@types/lodash-es': ^4.17.7
@@ -304,7 +305,6 @@ importers:
       '@vitest/expect': ^1.0.4
       '@vue-storefront/eslint-config': 2.0.0-rc.7
       '@vue-storefront/sdk': ^1.0.1
-      '@vue-storefront/storefront-boilerplate-sdk': ~0.2.0
       '@vue-storefront/unified-data-model': ^0.6.0
       '@vue/test-utils': ^2.4.0
       cypress: 12.12.0
@@ -324,8 +324,8 @@ importers:
       vue-router: ^4.0.0
       vue-tsc: ^1.8.6
     dependencies:
+      '@crearis/crearis-boilerplate-sdk': 0.0.11
       '@vue-storefront/sdk': 1.1.2
-      '@vue-storefront/storefront-boilerplate-sdk': 0.2.0
     devDependencies:
       '@nuxt/devtools': 1.0.6_nuxt@3.8.2+vite@4.5.1
       '@nuxtjs/i18n': 8.0.0-rc.3_vue-router@4.2.5+vue@3.3.9
@@ -2213,6 +2213,16 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@crearis/crearis-boilerplate-sdk/0.0.11:
+    resolution: {integrity: sha512-s+vDaPaw1LFxOl1m7XXNlxAeCXt+Hj5T4hxy/z9rQKCaLBLd+viIgHEaPLPCE8NPygPNR8snDJdIgJbblCwNVw==}
+    dependencies:
+      '@vue-storefront/sdk': 1.1.2
+      axios: 1.6.2
+    transitivePeerDependencies:
+      - debug
+      - encoding
+    dev: false
 
   /@crearis/tailwind-config/0.0.8_mx2pxcx5f6agoaouiqf2cawh4m:
     resolution: {integrity: sha512-Lv7MEF9PKCcVVkxZ+OwgxD2bIaZfftvnyUDkzSJ2gTbL+jNxZD3NFK2LOOhPlRGqBUV0dwFMnt7TBHsdajW/Kg==}
@@ -6315,6 +6325,16 @@ packages:
     dependencies:
       follow-redirects: 1.15.3
       form-data: 4.0.0
+    transitivePeerDependencies:
+      - debug
+    dev: false
+
+  /axios/1.6.2:
+    resolution: {integrity: sha512-7i24Ri4pmDRfJTR7LDBhsOTtcm+9kjX5WiY1X3wIisx6G9So3pfMkEiU7emUBe46oceVImccTEM3k6C5dbVW8A==}
+    dependencies:
+      follow-redirects: 1.15.3
+      form-data: 4.0.0
+      proxy-from-env: 1.1.0
     transitivePeerDependencies:
       - debug
     dev: false
@@ -13794,7 +13814,6 @@ packages:
 
   /proxy-from-env/1.1.0:
     resolution: {integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==}
-    dev: true
 
   /pseudomap/1.0.2:
     resolution: {integrity: sha512-b/YwNhb8lk1Zz2+bXXpS/LK9OisiZZ1SNsSLxN1x2OXVEhW2Ckr/7mWE5vrC1ZTiJlD9g19jWszTmJsB+oEpFQ==}
