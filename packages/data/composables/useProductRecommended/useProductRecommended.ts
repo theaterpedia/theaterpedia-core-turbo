@@ -4,7 +4,7 @@ import type {
   UseProductRecommendedState,
   FetchProductRecommended,
 } from '../../composables/useProductRecommended/types';
-import { useSdk } from '../../sdk';
+import { useSdk } from '../useSdk';
 
 /**
  * Composable for getting recommended products data

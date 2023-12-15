@@ -4,7 +4,7 @@ import type {
   UseProductReviewsState,
   FetchProductReviews,
 } from '../../composables/useProductReviews/types';
-import { useSdk } from '../../sdk';
+import { useSdk } from '../useSdk';
 
 /**
  * @description Composable managing product reviews data

@@ -1,6 +1,6 @@
 import { toRefs } from '@vueuse/shared';
 import type { UseCustomerReturn, UseCustomerState, FetchCustomer } from '../../composables/useCustomer/types';
-import { useSdk } from '../../sdk';
+import { useSdk } from '../useSdk';
 
 /**
  * @description Composable managing customer data

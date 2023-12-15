@@ -24,6 +24,7 @@ export { hydrateNever, hydrateOnInteraction, hydrateWhenIdle, hydrateWhenTrigger
 export { injectHead, useHead, useSeoMeta, useHeadSafe, useServerHead, useServerSeoMeta, useServerHeadSafe } from '@unhead/vue';
 export { useSfContent } from '../../../packages/theme/composables/useSfContent/useSfContent';
 export { paths } from '../../../packages/theme/utils/paths';
+export { useSdk } from '../../../packages/theme/composables/useSdk/index';
 export { DynamicContentFields, ContentDynamicPage, UseContentState, GetContent, UseSfContent, UseContentReturn } from '../../../packages/theme/composables/useSfContent/types';
 export { useCart } from '../../../packages/data/composables/useCart/useCart';
 export { useHandleError } from '../../../packages/data/composables/useHandleError/useHandleError';

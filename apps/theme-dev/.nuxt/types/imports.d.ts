@@ -157,6 +157,7 @@ declare global {
   const useRouteBaseName: typeof import('../../../../node_modules/.pnpm/@nuxtjs+i18n@8.0.0-rc.3_vue-router@4.2.5+vue@3.3.9/node_modules/@nuxtjs/i18n/dist/runtime/composables')['useRouteBaseName']
   const useRouter: typeof import('../../../../node_modules/.pnpm/nuxt@3.8.2_2siveq6k3m5fx6oz2vknqsz3xy/node_modules/nuxt/dist/app/composables/router')['useRouter']
   const useRuntimeConfig: typeof import('../../../../node_modules/.pnpm/nuxt@3.8.2_2siveq6k3m5fx6oz2vknqsz3xy/node_modules/nuxt/dist/app/nuxt')['useRuntimeConfig']
+  const useSdk: typeof import('../../../../packages/theme/composables/useSdk/index')['useSdk']
   const useSeoMeta: typeof import('../../../../node_modules/.pnpm/@unhead+vue@1.8.9_vue@3.3.9/node_modules/@unhead/vue')['useSeoMeta']
   const useServerHead: typeof import('../../../../node_modules/.pnpm/@unhead+vue@1.8.9_vue@3.3.9/node_modules/@unhead/vue')['useServerHead']
   const useServerHeadSafe: typeof import('../../../../node_modules/.pnpm/@unhead+vue@1.8.9_vue@3.3.9/node_modules/@unhead/vue')['useServerHeadSafe']
@@ -382,6 +383,7 @@ declare module 'vue' {
     readonly useRouteBaseName: UnwrapRef<typeof import('../../../../node_modules/.pnpm/@nuxtjs+i18n@8.0.0-rc.3_vue-router@4.2.5+vue@3.3.9/node_modules/@nuxtjs/i18n/dist/runtime/composables')['useRouteBaseName']>
     readonly useRouter: UnwrapRef<typeof import('../../../../node_modules/.pnpm/nuxt@3.8.2_2siveq6k3m5fx6oz2vknqsz3xy/node_modules/nuxt/dist/app/composables/router')['useRouter']>
     readonly useRuntimeConfig: UnwrapRef<typeof import('../../../../node_modules/.pnpm/nuxt@3.8.2_2siveq6k3m5fx6oz2vknqsz3xy/node_modules/nuxt/dist/app/nuxt')['useRuntimeConfig']>
+    readonly useSdk: UnwrapRef<typeof import('../../../../packages/theme/composables/useSdk/index')['useSdk']>
     readonly useSeoMeta: UnwrapRef<typeof import('../../../../node_modules/.pnpm/@unhead+vue@1.8.9_vue@3.3.9/node_modules/@unhead/vue')['useSeoMeta']>
     readonly useServerHead: UnwrapRef<typeof import('../../../../node_modules/.pnpm/@unhead+vue@1.8.9_vue@3.3.9/node_modules/@unhead/vue')['useServerHead']>
     readonly useServerHeadSafe: UnwrapRef<typeof import('../../../../node_modules/.pnpm/@unhead+vue@1.8.9_vue@3.3.9/node_modules/@unhead/vue')['useServerHeadSafe']>
@@ -561,6 +563,7 @@ declare module '@vue/runtime-core' {
     readonly useRouteBaseName: UnwrapRef<typeof import('../../../../node_modules/.pnpm/@nuxtjs+i18n@8.0.0-rc.3_vue-router@4.2.5+vue@3.3.9/node_modules/@nuxtjs/i18n/dist/runtime/composables')['useRouteBaseName']>
     readonly useRouter: UnwrapRef<typeof import('../../../../node_modules/.pnpm/nuxt@3.8.2_2siveq6k3m5fx6oz2vknqsz3xy/node_modules/nuxt/dist/app/composables/router')['useRouter']>
     readonly useRuntimeConfig: UnwrapRef<typeof import('../../../../node_modules/.pnpm/nuxt@3.8.2_2siveq6k3m5fx6oz2vknqsz3xy/node_modules/nuxt/dist/app/nuxt')['useRuntimeConfig']>
+    readonly useSdk: UnwrapRef<typeof import('../../../../packages/theme/composables/useSdk/index')['useSdk']>
     readonly useSeoMeta: UnwrapRef<typeof import('../../../../node_modules/.pnpm/@unhead+vue@1.8.9_vue@3.3.9/node_modules/@unhead/vue')['useSeoMeta']>
     readonly useServerHead: UnwrapRef<typeof import('../../../../node_modules/.pnpm/@unhead+vue@1.8.9_vue@3.3.9/node_modules/@unhead/vue')['useServerHead']>
     readonly useServerHeadSafe: UnwrapRef<typeof import('../../../../node_modules/.pnpm/@unhead+vue@1.8.9_vue@3.3.9/node_modules/@unhead/vue')['useServerHeadSafe']>
